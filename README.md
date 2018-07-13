@@ -36,7 +36,8 @@ server
 
 ### 网页说明
 
-![页面图片](https://github.com/SYSU-ROS-Develop/server/blob/master/img/page.PNG)
+![](https://github.com/SYSU-ROS-Develop/server/blob/master/img/page.PNG)
+
 
 在文本框输入书名后，请手动点击右方按钮，添加任务成功/失败时会有提示
 
