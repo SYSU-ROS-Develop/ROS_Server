@@ -17,13 +17,41 @@
 - 需要通过Nginx对http以及https请求进行反向代理至3000端口
 
 
-## 二.页面与API说明
+## 二.本项目中文件说明
+
+本项目目录结构如下
+
+server
+|---img/
+|---mysql
+|---project
+|---src
+
+- img：存放readme需要的图片
+- mysql：存放mysql数据库生成文件
+- project：需要部署到服务器的项目，包括完整的框架与依赖包
+- src：本人完成的代码
+
+## 三.页面与API说明
+
+### 网页说明
+
+![页面图片](https://github.com/SYSU-ROS-Develop/server/blob/master/img/page.PNG)
+
+在文本框输入书名后，请手动点击右方按钮，添加任务成功/失败时会有提示
+
+目前支持的书名：
+- 三国演义
+- 红楼梦
+- 西游记
+- 水浒传
+- test
+- 演员的自我修养
 
 
+### 接口说明
 
-![页面图片](http://s)
-
-
+本服务器域名：https://meal.mlg/kim
 
 接口：https://meal.mlg.kim/query/addquery
 方法：POST
@@ -42,10 +70,13 @@
 - 安装nginx并设置反向代理
 - 安装pm2
 - 安装mysql,配置登录用户名密码为root
+- 运行本项目中mysql/ROS.sql，导入数据
 - 安装express，在控制台键入：`$ npm install -g express`
 - 将project文件夹下代码拷贝至服务器
 - 进入project文件夹，输入`$ pm2 start ./bin/www`
 
 此时服务器便可成功运作
+
+
 
 
