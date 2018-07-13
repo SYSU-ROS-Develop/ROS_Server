@@ -22,10 +22,14 @@
 本项目目录结构如下
 
 server
+
 |---img/
-|---mysql
-|---project
-|---src
+
+|---mysql/
+
+|---project/
+
+|---src/
 
 - img：存放readme需要的图片
 - mysql：存放mysql数据库生成文件
